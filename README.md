@@ -10,7 +10,7 @@ Personal academic website for Saleh Zare Zade, built for GitHub Pages with stati
 - `projects.html` — project-oriented summaries of the publication record
 - `cv.html` — embedded and downloadable PDF curriculum vitae
 
-Shared presentation and behavior live in `styles.css` and `script.js`. The local resume source is ignored in `Resume/`; the publishable PDF is `assets/Saleh-Zare-Zade-CV.pdf`.
+Shared presentation and behavior live in `styles.css` and `script.js`. The local resume source is ignored in `Resume/`; the publishable PDF is `assets/files/CV.pdf`, and the profile photograph is `assets/images/profile.jpg`.
 
 ## Preview locally
 
