@@ -324,6 +324,10 @@ h1 {
   font-size: clamp(3.3rem, 8vw, 6.6rem);
 }
 
+.hero h1 {
+  font-size: clamp(3rem, 6vw, 5.4rem);
+}
+
 h2 {
   margin-bottom: 1.15rem;
   font-size: clamp(2rem, 4vw, 3.2rem);
