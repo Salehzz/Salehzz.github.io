@@ -4,13 +4,13 @@ Personal academic website for Saleh Zare Zade, built for GitHub Pages with stati
 
 ## Pages
 
-- `index.html` — biography, selected publications, awards, and contact details
-- `research.html` — research interests, experience, and technical background
-- `publications.html` — full publication list with client-side status filters
-- `projects.html` — project-oriented summaries of the publication record
-- `cv.html` — embedded and downloadable PDF curriculum vitae
+- `index.html`: biography, selected publications, awards, and contact details
+- `research.html`: research interests, experience, and technical background
+- `publications.html`: full publication list with client-side status filters
+- `projects.html`: project-oriented summaries of the publication record
+- `cv.html`: embedded and downloadable PDF curriculum vitae
 
-Shared presentation and behavior live in `styles.css` and `script.js`. `theme-init.js` applies the saved light/dark preference before the page renders. The local resume source is ignored in `Resume/`; the publishable PDF is `assets/files/CV.pdf`, and the profile photograph is `assets/images/profile.jpg`.
+Shared presentation and behavior live in `styles.css` and `script.js`. `theme.js` applies and manages the saved light/dark preference. The local resume source is ignored in `Resume/`; the publishable PDF is `assets/files/CV.pdf`, and the profile photograph is `assets/images/profile.jpg`.
 
 ## Preview locally
 

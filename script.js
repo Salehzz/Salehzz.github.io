@@ -1,36 +1,4 @@
 (() => {
-  const themeToggle = document.querySelector(".theme-toggle");
-
-  if (themeToggle) {
-    const updateThemeControl = () => {
-      const isDark = document.documentElement.dataset.theme === "dark";
-      const nextTheme = isDark ? "light" : "dark";
-      const label = `Switch to ${nextTheme} theme`;
-
-      themeToggle.setAttribute("aria-label", label);
-      themeToggle.setAttribute("title", label);
-      themeToggle.setAttribute("aria-pressed", String(isDark));
-
-      const themeMeta = document.querySelector('meta[name="theme-color"]');
-      if (themeMeta) themeMeta.setAttribute("content", isDark ? "#0e1412" : "#f7f6f1");
-    };
-
-    updateThemeControl();
-
-    themeToggle.addEventListener("click", () => {
-      const nextTheme = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
-      document.documentElement.dataset.theme = nextTheme;
-
-      try {
-        localStorage.setItem("theme", nextTheme);
-      } catch {
-        // The selection still applies for the current page if storage is blocked.
-      }
-
-      updateThemeControl();
-    });
-  }
-
   const nav = document.querySelector(".site-nav");
   const toggle = document.querySelector(".nav-toggle");
 
