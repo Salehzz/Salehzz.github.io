@@ -12,6 +12,14 @@ Personal academic website for Saleh Zare Zade, built for GitHub Pages with stati
 
 Shared presentation and behavior live in `styles.css` and `script.js`. `theme.js` applies and manages the saved light/dark preference. The local resume source is ignored in `Resume/`; the publishable PDF is `assets/files/CV.pdf`, and the profile photograph is `assets/images/profile.jpg`.
 
+## Update the public CV
+
+The standard `Resume/main.tex` build keeps private contact details for Overleaf. To build the public version without the phone number and update the website PDF, run this from the repository root:
+
+```sh
+./scripts/build-public-cv.sh
+```
+
 ## Preview locally
 
 From the repository root, run:
