@@ -20,6 +20,8 @@ The standard `Resume/main.tex` build keeps private contact details for Overleaf.
 ./scripts/build-public-cv.sh
 ```
 
+Add new papers and make other resume changes in `Resume/main.tex` as usual. The public build loads the complete file and removes only the phone number, so new publications appear in both CV versions without maintaining a second resume.
+
 ## Preview locally
 
 From the repository root, run:
