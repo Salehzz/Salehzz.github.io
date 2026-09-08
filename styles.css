@@ -543,7 +543,7 @@ p {
 
 .prose-large {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.35rem, 2.8vw, 2rem);
+  font-size: clamp(1.18rem, 2.1vw, 1.6rem);
   line-height: 1.52;
   letter-spacing: -0.02em;
 }
@@ -555,6 +555,12 @@ p {
 .info-block + .info-block {
   margin-top: 2rem;
   padding-top: 2rem;
+  border-top: 1px solid var(--line);
+}
+
+.info-block--spaced {
+  margin-top: 2.75rem;
+  padding-top: 2.25rem;
   border-top: 1px solid var(--line);
 }
 
