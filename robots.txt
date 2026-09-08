@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://Salehzz.github.io/sitemap.xml
